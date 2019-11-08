@@ -3,7 +3,7 @@ public class FruitTest{
         Fruit f[]= new Fruit[3];
         Fruit f1= new Fruit("水果类");
         f1.setFruitName("水果类");
-		System.out.println(f1.getFruitName("水果类"));
+		System.out.println(f1.getFruitName());
         f[0]= new Apple(300);
         f[1]= new Banana(400);
         f[2]= new Apple(300);
@@ -26,7 +26,7 @@ public class FruitTest{
             this.fruitName=fruitname;
         }
         //获取成员变量私有的值
-        public String getFruitName(String fruitname) {
+        public String getFruitName() {
             return this.fruitName;
         }
         //成员变量
